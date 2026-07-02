@@ -39,7 +39,7 @@
   .sub{font-size:clamp(17px,2vw,19px);color:var(--ink-soft);margin:0 0 34px}
   .cta-row{display:flex;gap:14px;flex-wrap:wrap}
   .hero-photo{position:relative}
-  .hero-photo img{width:100%;display:block;aspect-ratio:4/3;object-fit:cover;object-position:72% 22%;border-radius:16px;box-shadow:0 20px 50px rgba(28,36,48,.18);border:1px solid var(--line)}
+  .hero-photo img{width:100%;display:block;aspect-ratio:4/3;object-fit:cover;border-radius:16px;box-shadow:0 20px 50px rgba(28,36,48,.18);border:1px solid var(--line)}
   .hero-photo::after{content:"";position:absolute;inset:14px -14px -14px 14px;border:2px solid var(--accent);border-radius:16px;z-index:-1;opacity:.35}
   .hero-photo .badge{position:absolute;left:-14px;bottom:22px;background:var(--white);border:1px solid var(--line);border-radius:10px;padding:10px 16px;font-size:13.5px;font-weight:600;box-shadow:0 8px 24px rgba(28,36,48,.12)}
   .hero-photo .badge span{color:var(--accent)}
@@ -89,7 +89,7 @@
   .divider .cap p{color:#fff;font-size:clamp(17px,2.6vw,23px);font-weight:600;padding:0 24px 30px;max-width:1040px;margin:0 auto;width:100%;text-shadow:0 2px 10px rgba(0,0,0,.4)}
 
   /* trust */
-  .trust{background:linear-gradient(rgba(18,24,33,.88),rgba(18,24,33,.92)),url("assets/neon-alley.jpg") center/cover no-repeat;color:#eef1f5}
+  .trust{background-color:var(--ink);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='60' viewBox='0 0 120 60'%3E%3Cg fill='none' stroke='%23ffffff' stroke-opacity='.045' stroke-width='1.5'%3E%3Cpath d='M0 60a30 30 0 0 1 60 0M60 60a30 30 0 0 1 60 0M-30 30a30 30 0 0 1 60 0M30 30a30 30 0 0 1 60 0M90 30a30 30 0 0 1 60 0M0 0a30 30 0 0 1 60 0M60 0a30 30 0 0 1 60 0'/%3E%3C/g%3E%3C/svg%3E");color:#eef1f5}
   .trust h2,.trust .sec-kicker{color:#fff}
   .trust .sec-kicker{color:#f0a89e}
   .trust .sec-lead{color:#b8c0cc}
@@ -172,7 +172,7 @@
         <div class="hero-note">No minimum order · No monthly fee · No obligation until you approve the quote</div>
       </div>
       <div class="hero-photo">
-        <img src="assets/hero-manga.jpg" alt="Reading manga in a Japanese bookstore" width="900" height="675">
+        <img src="assets/fuji-hero.svg" alt="Mount Fuji illustration with red sun and waves" width="900" height="675">
         <div class="badge">📍 <span>Sourcing on the ground</span> in Japan</div>
       </div>
     </div>
@@ -217,8 +217,8 @@
 </section>
 
 <div class="divider">
-  <img src="assets/tokyo-night.jpg" alt="Neon-lit Shibuya crossing in Tokyo at night" loading="lazy">
-  <div class="cap"><p>We don't source from a spreadsheet. We're here in Tokyo — checking the shelves, visiting the shops, inspecting the goods.</p></div>
+  <img src="assets/wave-divider.svg" alt="Night illustration of Mount Fuji over stylized waves" loading="lazy">
+  <div class="cap"><p>We don't source from a spreadsheet. We're here in Japan — checking the shelves, visiting the shops, inspecting the goods.</p></div>
 </div>
 
 <section class="trust">
@@ -241,7 +241,7 @@
     <h2>A real person in Japan, not a faceless agency.</h2>
     <div class="founder-box" style="margin-top:36px">
       <!-- EDIT: 顔写真に差し替えると信頼度が大幅に上がります: <img src="photo.jpg" class="avatar" style="object-fit:cover"> -->
-      <div class="avatar">🇯🇵</div>
+      <div class="avatar"><svg viewBox="0 0 100 100" width="70" height="70" xmlns="http://www.w3.org/2000/svg"><circle cx="66" cy="30" r="14" fill="#c33d2e"/><path d="M8 78 C 28 76 38 62 45 46 C 48 39 50 35 53 34.5 C 56 35 58 39 61 46 C 68 62 78 76 98 78 Z" fill="#2b3a52"/><path d="M45 46 C 48 39 50 35 53 34.5 C 56 35 58 39 61 46 L 58.5 44.8 L 56 47.6 L 53.5 44.8 L 51 47.6 L 48.5 44.8 L 46.5 47.2 Z" fill="#fbfaf7"/></svg></div>
       <div>
         <!-- EDIT: 名前 -->
         <h3>Hiroshi Yakura</h3>

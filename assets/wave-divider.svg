@@ -1,0 +1,35 @@
+<svg viewBox="0 0 1400 380" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Night illustration of Mount Fuji over stylized waves">
+  <defs>
+    <linearGradient id="nsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c2430"/>
+      <stop offset="1" stop-color="#2a3850"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="380" fill="url(#nsky)"/>
+
+  <!-- stars -->
+  <g fill="#fbfaf7">
+    <circle cx="140" cy="60" r="2.2" opacity=".8"/>
+    <circle cx="310" cy="110" r="1.6" opacity=".55"/>
+    <circle cx="520" cy="50" r="1.8" opacity=".65"/>
+    <circle cx="700" cy="95" r="1.5" opacity=".5"/>
+    <circle cx="905" cy="45" r="2" opacity=".7"/>
+    <circle cx="1250" cy="70" r="1.7" opacity=".6"/>
+    <circle cx="1340" cy="150" r="1.5" opacity=".5"/>
+    <circle cx="80" cy="160" r="1.5" opacity=".5"/>
+  </g>
+
+  <!-- sun / moon -->
+  <circle cx="1105" cy="150" r="100" fill="#c33d2e"/>
+  <circle cx="1105" cy="150" r="126" fill="none" stroke="#b98a2f" stroke-width="2" opacity=".4"/>
+
+  <!-- Mount Fuji silhouette -->
+  <path d="M120 322 C 260 310 340 240 384 148 C 400 113 413 90 430 87 C 447 90 460 113 476 148 C 520 240 600 310 740 322 Z" fill="#16202e"/>
+  <path d="M384 148 C 400 113 413 90 430 87 C 447 90 460 113 476 148 L 465 143 L 454 158 L 442 143 L 430 158 L 418 143 L 406 158 L 395 143 Z" fill="#e7edf4"/>
+
+  <!-- waves -->
+  <path d="M-60 300 q 50 -40 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 L 1460 420 L -60 420 Z" fill="#33445f"/>
+  <path d="M-110 330 q 50 -40 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 L 1460 420 L -110 420 Z" fill="#46597a"/>
+  <path d="M-60 358 q 50 -40 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 L 1460 420 L -60 420 Z" fill="#5d7396"/>
+</svg>
